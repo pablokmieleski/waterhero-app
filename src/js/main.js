@@ -17,6 +17,10 @@ if ('serviceWorker' in navigator) {
 // place your code below
 
 
-console.log(`Hello world!`);
+const buttonAdd = document.querySelector('.button-add--js');
+const buttonRemove = document.querySelector('.button-remove--js');
+const value = document.querySelector('counter__value--js');
+
+
 
 
